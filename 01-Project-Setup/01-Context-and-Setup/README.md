@@ -1,4 +1,4 @@
-## Objectives of the week
+## Objectives of the Project
 
 We will analyze a dataset provided by an e-commerce marketplace called [Olist](https://www.olist.com) to answer the CEO's question:
 
@@ -55,7 +55,7 @@ ls ~/code/<user.github_nickname>/<program.challenges_repo_name>/04-Decision-Scie
 
 ### 1 - Project Structure
 Go to your local `04-Decision-Science` folder.
-This will be your project structure for the week.
+This will be your project structure.
 
 ```bash
 .
@@ -84,7 +84,7 @@ This will be your project structure for the week.
 
 Add `olist` path to your `PYTHONPATH`.
 
-This will allow you to easily import modules defined in `olist` in your notebooks throughout the week.
+This will allow you to easily import modules defined in `olist` in your notebooks throughout the Project.
 
 Open your terminal and navigate to your home directory by running:
 
@@ -130,15 +130,4 @@ Olist().ping()
 # => pong
 ```
 
-If you get something else than `pong`, raise a ticket to get some help from a TA. You might have a problem with the `$PYTHONPATH`.
-
-## Push your code on GitHub
-
-Go back to the Decision Science directory, commit and push your code:
-
-```bash
-cd ~/code/<user.github_nickname>/<program.challenges_repo_name>/04-Decision-Science
-git add .
-git commit -m 'kick off olist challenge'
-git push origin master
-```
+If you get something else than `pong`, you might have a problem with the `$PYTHONPATH`.
